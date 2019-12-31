@@ -287,13 +287,13 @@ fieldset[disabled] .btn-med.active {
 .navbar-custom .navbar-brand {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
   float:left;
-  color: white;
+  color: black;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: black;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -303,7 +303,7 @@ fieldset[disabled] .btn-med.active {
   background-color: rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -315,7 +315,7 @@ fieldset[disabled] .btn-med.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   cursor:pointer;
 }
 .navbar-custom .nav li a:hover,
@@ -332,7 +332,7 @@ fieldset[disabled] .btn-med.active {
 
 #home-link {
   border-radius: 0;
-  color: white;
+  color: black;
   background: none;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -786,4 +786,16 @@ body {
 
 #schedule{
   margin-bottom: 50px;
+}
+
+#faq-text{
+  color: white;
+}
+
+#keilyn {
+  margin-left: 150px;
+}
+
+#jenny {
+  margin-right: 150px;
 }
