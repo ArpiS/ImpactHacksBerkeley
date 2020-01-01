@@ -30,6 +30,7 @@
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  color: white;
  }
 
 
@@ -368,21 +369,10 @@ fieldset[disabled] .btn-med.active {
     font-size: 1.5em;
   }
 }
-header {
-  background-image: url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+  color: black;
 }
 header .intro-text .intro-lead-in {
   font-family: 'Lora', serif;
@@ -784,12 +774,43 @@ body {
  left: -200px;
 }
 
-#schedule{
-  margin-bottom: 50px;
+#white-gold {
+  display: block;
+  position: relative;
 }
 
-#faq-text{
-  color: white;
+#white-gold::after {
+  content: "";
+  background: url(https://wallpaperaccess.com/full/896712.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#pink-gold {
+  background: url(https://wallpaperaccess.com/full/628930.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#schedule-text{
+  margin-bottom: 50px;
 }
 
 #keilyn {
