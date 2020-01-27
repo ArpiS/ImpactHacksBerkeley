@@ -114,8 +114,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-.bg-light-gray {
-  background-color: rgba(90,0,0,0.35); /* was gray, I changed it to light pink but the name is still grey*/
+.bg-light-pink {
+  background-color: rgba(199, 100, 100,0.25);
 }
 .bg-darkest-gray {
   background-color: #222222;
